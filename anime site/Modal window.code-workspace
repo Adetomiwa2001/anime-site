@@ -1,0 +1,22 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../guessing game"
+	},
+	{
+		"path": "../../pig game"
+	},
+	{
+		"path": "../../../Frontend2"
+	},
+	{
+		"path": "../../untitled folder"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "pig game"
+  }
+}

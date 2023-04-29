@@ -1,0 +1,1055 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(19, 19, 19);
+    padding-bottom: 20px;
+}
+.top{
+    padding-top: 20px;
+    display: flex;
+    padding-left: 70px ;
+    gap: 25rem;
+    align-items: flex-end;
+}
+.lg{
+    width: 15px;
+}
+.topleft{
+    font-size: 1.5rem;
+}
+.topright{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+}
+.toptop{
+    color: rgb(238, 235, 228);
+}
+.moon{
+    width: 40px;
+    margin-left: 200px;
+}
+.mid{
+    display: flex;
+    flex-flow: row;
+    padding-left: 70px;
+    align-items: center;
+    margin-top: 60px;
+}
+.midleft{
+    color: whitesmoke;
+    font-size: 2.5rem;
+    line-height: 60px;
+    width: 400px;
+    white-space: wrap;
+}
+.lo1{
+    font-size: 1rem;
+    color: grey;
+    line-height: 30px;
+}
+.get{
+    background-color: rgb(233, 105, 233);
+    color: antiquewhite;
+    font-weight: bold;
+    padding: 15px 30px 15px 30px;
+    border: none;
+    border-radius: 18px;
+}
+.num{
+    margin-top: 130px;
+}
+.midright{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-right:50px;
+    
+}
+.one{
+    display: inline;
+    padding-top: 50px;
+
+}
+.china{
+    margin-top: 20px;
+    margin-left: 80px;
+    width:200px;
+    height: 300px;
+    border: 1px solid;
+    border-radius: 100px;
+    
+    
+}
+.team{
+    width: 350px;
+}
+.two{
+    display: inline;
+}
+.play{
+    color: rgb(181, 181, 181);
+    background-color: rgb(27, 27, 27);
+    border-radius: 5px;
+    margin-right: 40px;
+    
+    
+    
+    
+
+}
+.player{
+    border-radius: 50px;
+}
+.voi{
+    padding-left: 100px;
+    height: 400px;
+}
+main{
+    background-color: white;
+}
+.maintop{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+}
+.pod{
+    font-size: 3rem;
+    white-space: nowrap;
+}
+.vo{
+    width: 300px;
+}
+.line{
+    display: block;
+    width: 200px;
+}
+.mainmid{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 3rem;
+    padding-left: 200px;
+}
+.podcasters{
+    gap: 10rem;
+}
+.cast{
+    width: 200px;
+    height: 300px;
+    border-radius: 100px;
+}
+.mainbot{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.info{
+    width: 380px;
+}
+.bec{
+    color: rgb(22, 22, 22);
+}
+.st{
+    font-size: small;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    color: rgb(74, 74, 74);
+}
+.ap{
+    border: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    background-color: rgb(27, 26, 26);
+    color: aliceblue;
+}
+.box{
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 25px;
+    column-gap: 0px;
+    padding-left: 80px;
+}
+.box div{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px 30px 10px 30px;
+    width: 250px;
+    font-size: small;
+}
+.box1{
+    background-color: cyan;
+    transform: skewX(10deg);
+}
+.box2{
+    background-color: greenyellow;
+    transform: skewX(-10deg);
+}
+.box3{
+    background-color: orange;
+    transform: skewX(-10deg);
+}
+.box4{
+    background-color: rgb(233, 105, 233);
+    transform: skewX(10deg);
+}
+.main2top{
+    background-color:rgb(19, 19, 19) ;
+    display: flex;
+    flex-flow: row nowrap;
+    column-count: 3;
+    column-rule: 4px solid whitesmoke;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 80px;
+    padding-left: 90px;
+    padding-bottom: 20px;
+}
+.pp{
+    width: 300px;
+    padding-top: 15px;
+}
+.main2top h2{
+    color: whitesmoke;
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    white-space: nowrap;
+}
+.main2top p{
+    color: gray;
+    width: 365px;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.dp{
+    width: 360px;
+}
+.main2bot{
+    background-color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 40px 90px 100px 90px;
+    gap: 2rem;
+}
+.main2bot p{
+    color: gray;
+    width: 520px;
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.learn{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 15px 40px 15px 40px;
+    border: none;
+    border-radius: 25px;
+}
+.main2bot h2{
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    white-space: nowrap;
+}
+.cm{
+    width: 550px;
+}
+.l{
+    display: flex;
+    justify-content: center;
+}
+.let{
+    background-color: rgb(143, 55, 243);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content:  center;
+    border-radius: 40px;
+    padding: 100px 250px 100px 250px;
+    position: absolute;
+    z-index: 2;
+}
+.let h2{
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+}
+.let p{
+    width: 500px;
+    color: rgb(220, 220, 220);
+    text-align: center;
+}
+.bt{
+    border: none;
+    background-color: darkslategray;
+    color: rgb(255, 255, 255);
+    padding: 20px 70px 20px 20px;
+    width: 450px;
+    border-radius: 50px;
+    gap: 3rem;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+}
+.bt::placeholder{
+    color: antiquewhite;
+}
+.sub{
+    background-color: rgb(108, 11, 219);
+    color: whitesmoke;
+    font-size: medium;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+    left: 600px;
+    bottom: 110px;
+}
+.footer{
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    flex-flow: row nowrap;
+    padding-top: 15rem;
+    padding-left: 70px;
+    gap: 10rem;
+    position: relative;
+    top: 190px;
+    
+}
+.footer h2{
+    color: whitesmoke;
+    padding-bottom: 20px;
+}
+.footer p{
+    color: rgb(220, 220, 220);
+    font-size: small;
+    width: 200px;
+}
+.footer img{
+    width: 20px;
+}
+.bott{
+    background-color: rgb(19, 19, 19);
+    color: rgb(220, 220, 220);
+    display: flex;
+    flex-flow: row nowrap;
+    padding-top: 200px;
+    padding-left: 70px;
+    gap: 50rem;
+}
+.bott span{
+    color: blueviolet;
+}
+.sn{
+    color: gray;
+}
+@media screen and (min-width:100px){
+    body{
+        width: 1500px;
+    }
+    .lg{
+        width: 40px;
+    }
+    .topleft{
+        font-size: 2rem;
+    }
+    .topright{
+        font-size: 30px;
+    }
+    .mid{
+        display: flex;
+        flex-flow: row;
+        padding-left: 70px;
+        align-items: center;
+        margin-top: 60px;
+    }
+    .midleft{
+        font-size: 3.5rem;
+    }
+    .lo1{
+        font-size: 2.3rem;
+    }
+    .get{
+        padding: 20px 40px 20px 40px;
+        font-size: 1.5rem;
+    }
+    .china{
+        margin-top: 20px;
+        margin-left: 80px;
+        width:400px;
+        height: 500px;
+        border: 1px solid;
+        border-radius: 300px;
+    }
+    .team{
+        width: 550px;
+    }
+    .num{
+        margin-top: 130px;
+        width: 400px;
+    }
+    .voi{
+        padding-left: 100px;
+        height: 500px;
+    }
+    .pod{
+        font-size: 4.5rem;
+        white-space: nowrap;
+    }
+    .vo{
+        width: 500px;
+    }
+    .line{
+        display: block;
+        width: 300px;
+    }
+    .cast{
+        width: 250px;
+        height: 350px;
+        border-radius: 150px;
+    }
+    .bec{
+        font-size: 3rem;
+    }
+    .st{
+        font-size: 2rem;
+        padding-top: 15px;
+        padding-bottom: 50px;
+        color: rgb(74, 74, 74);
+    }
+    .ap{
+        border: none;
+        padding: 20px 40px 20px 40px;
+        font-size: 2rem;
+        border-radius: 25px;
+    }
+    .box div{
+        border: 1px solid black;
+        border-radius: 15px;
+        padding: 20px 40px 20px 40px;
+        width: 400px;
+        font-size: 2rem;
+    }
+    .main2top h2{
+        font-size: 4.5rem;
+    }
+    .main2top p{
+        width: 400px;
+        font-size: 29px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .dp{
+        width: 450px;
+    }
+    .pp{
+        width: 400px;
+        padding-top: 15px;
+    }
+    .main2bot p{
+        width: 650px;
+        font-size: 35px;
+        line-height: 40px;
+        padding-top: 20px;
+        font-weight: bold;
+    }
+    .learn{
+        font-size: 30px;
+        padding: 20px 45px 20px 45px;
+        border: none;
+        border-radius: 25px;
+    }
+    .main2bot h2{
+        font-size: 3rem;
+    }
+    .lm{
+        width: 250px;
+    }
+    .cm{
+        width: 600px;
+    }
+    .let h2{
+        font-size: 46px;
+    }
+    .let p{
+        font-size: 30px;
+        width: 500px;
+        color: rgb(220, 220, 220);
+        text-align: center;
+    }
+    .bt::placeholder{
+        font-size: 25px;
+    }
+    .footer{
+        background-color: rgb(19, 19, 19);
+        display: flex;
+        flex-flow: row nowrap;
+        padding-top: 15rem;
+        padding-left: 70px;
+        gap: 10rem;
+        position: relative;
+        top: 270px;
+        
+    }
+    .footer h2{
+       font-size: 2.5rem;
+    }
+    .footer p{
+        font-size: 2rem;
+        line-height: 2.3rem;
+        width: 220px;
+    }
+    .footer img{
+        width: 30px;
+    }
+    .bott{
+        gap: 40rem;
+    }
+    .bott img{
+        width: 300px;
+    }
+    .bott div{
+        font-size: 1.8rem;
+    }
+}
+@media screen and (min-width:576px) {
+    body{
+        width: 1500px;
+    }
+    .lg{
+        width: 40px;
+    }
+    .topleft{
+        font-size: 2rem;
+    }
+    .topright{
+        font-size: 30px;
+    }
+    .mid{
+        display: flex;
+        flex-flow: row;
+        padding-left: 70px;
+        align-items: center;
+        margin-top: 60px;
+    }
+    .midleft{
+        font-size: 3rem;
+    }
+    .lo1{
+        font-size: 1.7rem;
+    }
+    .get{
+        padding: 20px 40px 20px 40px;
+        font-size: 1.5rem;
+    }
+    .china{
+        margin-top: 20px;
+        margin-left: 80px;
+        width:400px;
+        height: 500px;
+        border: 1px solid;
+        border-radius: 300px;
+    }
+    .team{
+        width: 550px;
+    }
+    .num{
+        margin-top: 130px;
+        width: 400px;
+    }
+    .voi{
+        padding-left: 100px;
+        height: 500px;
+    }
+    .pod{
+        font-size: 4.5rem;
+        white-space: nowrap;
+    }
+    .vo{
+        width: 500px;
+    }
+    .line{
+        display: block;
+        width: 300px;
+    }
+    .cast{
+        width: 250px;
+        height: 350px;
+        border-radius: 150px;
+    }
+    .bec{
+        font-size: 3rem;
+    }
+    .st{
+        font-size: 2rem;
+        padding-top: 15px;
+        padding-bottom: 50px;
+        color: rgb(74, 74, 74);
+    }
+    .ap{
+        border: none;
+        padding: 20px 40px 20px 40px;
+        font-size: 2rem;
+        border-radius: 25px;
+    }
+    .box div{
+        border: 1px solid black;
+        border-radius: 15px;
+        padding: 20px 40px 20px 40px;
+        width: 400px;
+        font-size: 2rem;
+    }
+    .main2top h2{
+        font-size: 4.5rem;
+    }
+    .main2top p{
+        width: 400px;
+        font-size: 29px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .dp{
+        width: 450px;
+    }
+    .pp{
+        width: 400px;
+        padding-top: 15px;
+    }
+    .main2bot p{
+        width: 600px;
+        font-size: 25px;
+        line-height: 25px;
+        padding-top: 20px;
+        font-weight: bold;
+    }
+    .learn{
+        font-size: 20px;
+        padding: 20px 45px 20px 45px;
+        border: none;
+        border-radius: 25px;
+    }
+    .main2bot h2{
+        font-size: 3rem;
+    }
+    .lm{
+        width: 250px;
+    }
+    .cm{
+        width: 600px;
+    }
+    .let h2{
+        font-size: 45px;
+    }
+    .let p{
+        font-size: 22px;
+        width: 500px;
+        color: rgb(220, 220, 220);
+        text-align: center;
+    }
+    .bt::placeholder{
+        font-size: 20px;
+    }
+    .footer h2{
+       font-size: 2.5rem;
+    }
+    .footer p{
+        font-size: 1.3rem;
+        line-height: 2rem;
+        width: 220px;
+    }
+    .footer img{
+        width: 30px;
+    }
+    .bott{
+        gap: 40rem;
+    }
+    .bott img{
+        width: 300px;
+    }
+    .bott div{
+        font-size: 1.8rem;
+    }
+}
+@media screen and (min-width:992px){
+    body{
+        width: 1500px;
+        min-height: 100vh;
+        display: flex;
+        flex-flow: column nowrap;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header{
+        background-color: rgb(19, 19, 19);
+        padding-bottom: 20px;
+    }
+    .top{
+        padding-top: 20px;
+        display: flex;
+        padding-left: 70px ;
+        gap: 25rem;
+        align-items: flex-end;
+    }
+    .lg{
+        width: 15px;
+    }
+    .topleft{
+        font-size: 1.5rem;
+    }
+    .topright{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 3rem;
+    }
+    .toptop{
+        color: rgb(238, 235, 228);
+    }
+    .moon{
+        width: 40px;
+        margin-left: 200px;
+    }
+    .mid{
+        display: flex;
+        flex-flow: row;
+        padding-left: 70px;
+        align-items: center;
+        margin-top: 60px;
+    }
+    .midleft{
+        color: whitesmoke;
+        font-size: 2.5rem;
+        line-height: 60px;
+        width: 400px;
+        white-space: wrap;
+    }
+    .lo1{
+        font-size: 1rem;
+        color: grey;
+        line-height: 30px;
+    }
+    .get{
+        background-color: rgb(233, 105, 233);
+        color: antiquewhite;
+        font-weight: bold;
+        padding: 15px 30px 15px 30px;
+        border: none;
+        border-radius: 18px;
+    }
+    .num{
+        margin-top: 130px;
+    }
+    .midright{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-right:50px;
+        
+    }
+    .one{
+        display: inline;
+        padding-top: 50px;
+    
+    }
+    .china{
+        margin-top: 20px;
+        margin-left: 80px;
+        width:200px;
+        height: 300px;
+        border: 1px solid;
+        border-radius: 100px;
+        
+        
+    }
+    .team{
+        width: 350px;
+    }
+    .two{
+        display: inline;
+    }
+    .play{
+        color: rgb(181, 181, 181);
+        background-color: rgb(27, 27, 27);
+        border-radius: 5px;
+        margin-right: 40px;
+        
+        
+        
+        
+    
+    }
+    .player{
+        border-radius: 50px;
+    }
+    .voi{
+        padding-left: 100px;
+        height: 400px;
+    }
+    main{
+        background-color: white;
+    }
+    .maintop{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 100px;
+    }
+    .pod{
+        font-size: 3rem;
+        white-space: nowrap;
+    }
+    .vo{
+        width: 300px;
+    }
+    .line{
+        display: block;
+        width: 200px;
+    }
+    .mainmid{
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 3rem;
+        padding-left: 200px;
+    }
+    .podcasters{
+        gap: 10rem;
+    }
+    .cast{
+        width: 200px;
+        height: 300px;
+        border-radius: 100px;
+    }
+    .mainbot{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .info{
+        width: 380px;
+    }
+    .bec{
+        color: rgb(22, 22, 22);
+    }
+    .st{
+        font-size: small;
+        padding-top: 15px;
+        padding-bottom: 50px;
+        color: rgb(74, 74, 74);
+    }
+    .ap{
+        border: none;
+        padding: 10px 30px 10px 30px;
+        border-radius: 20px;
+        background-color: rgb(27, 26, 26);
+        color: aliceblue;
+    }
+    .box{
+        width: 800px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 25px;
+        column-gap: 0px;
+        padding-left: 80px;
+    }
+    .box div{
+        border: 1px solid black;
+        border-radius: 15px;
+        padding: 10px 30px 10px 30px;
+        width: 250px;
+        font-size: small;
+    }
+    .box1{
+        background-color: cyan;
+        transform: skewX(10deg);
+    }
+    .box2{
+        background-color: greenyellow;
+        transform: skewX(-10deg);
+    }
+    .box3{
+        background-color: orange;
+        transform: skewX(-10deg);
+    }
+    .box4{
+        background-color: rgb(233, 105, 233);
+        transform: skewX(10deg);
+    }
+    .main2top{
+        background-color:rgb(19, 19, 19) ;
+        display: flex;
+        flex-flow: row nowrap;
+        column-count: 3;
+        column-rule: 4px solid whitesmoke;
+        align-items: center;
+        gap: 2rem;
+        padding-top: 80px;
+        padding-left: 90px;
+        padding-bottom: 20px;
+    }
+    .pp{
+        width: 300px;
+        padding-top: 15px;
+    }
+    .main2top h2{
+        color: whitesmoke;
+        font-size: 3rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        white-space: nowrap;
+    }
+    .main2top p{
+        color: gray;
+        width: 365px;
+        font-size: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .dp{
+        width: 360px;
+    }
+    .main2bot{
+        background-color: white;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        padding: 40px 90px 100px 90px;
+        gap: 2rem;
+    }
+    .main2bot p{
+        color: gray;
+        width: 520px;
+        font-size: 15px;
+        line-height: 25px;
+        padding-top: 20px;
+        font-weight: bold;
+    }
+    .learn{
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        padding: 15px 40px 15px 40px;
+        border: none;
+        border-radius: 25px;
+    }
+    .main2bot h2{
+        font-size: 2rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        white-space: nowrap;
+    }
+    .cm{
+        width: 550px;
+    }
+    .l{
+        display: flex;
+        justify-content: center;
+    }
+    .let{
+        background-color: rgb(143, 55, 243);
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content:  center;
+        border-radius: 40px;
+        padding: 100px 250px 100px 250px;
+        position: absolute;
+        z-index: 2;
+    }
+    .let h2{
+        color: whitesmoke;
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding-bottom: 20px;
+    }
+    .let p{
+        width: 500px;
+        color: rgb(220, 220, 220);
+        text-align: center;
+    }
+    .bt{
+        border: none;
+        background-color: darkslategray;
+        color: rgb(255, 255, 255);
+        padding: 20px 70px 20px 20px;
+        width: 450px;
+        border-radius: 50px;
+        gap: 3rem;
+        align-items: center;
+        margin-top: 20px;
+        position: relative;
+    }
+    .bt::placeholder{
+        color: antiquewhite;
+    }
+    .sub{
+        background-color: rgb(108, 11, 219);
+        color: whitesmoke;
+        font-size: medium;
+        font-weight: bold;
+        padding: 10px 30px 10px 30px;
+        border: none;
+        border-radius: 50px;
+        position: absolute;
+        left: 600px;
+        bottom: 110px;
+    }
+    .footer{
+        background-color: rgb(19, 19, 19);
+        display: flex;
+        flex-flow: row nowrap;
+        padding-top: 15rem;
+        padding-left: 70px;
+        gap: 10rem;
+        position: relative;
+        top: 190px;
+        
+    }
+    .footer h2{
+        color: whitesmoke;
+        padding-bottom: 20px;
+    }
+    .footer p{
+        color: rgb(220, 220, 220);
+        font-size: small;
+        width: 200px;
+    }
+    .footer img{
+        width: 20px;
+    }
+    .bott{
+        background-color: rgb(19, 19, 19);
+        color: rgb(220, 220, 220);
+        display: flex;
+        flex-flow: row nowrap;
+        padding-top: 200px;
+        padding-left: 70px;
+        gap: 50rem;
+    }
+    .bott span{
+        color: blueviolet;
+    }
+    .sn{
+        color: gray;
+    }
+}
